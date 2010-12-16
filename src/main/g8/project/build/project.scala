@@ -1,7 +1,7 @@
 import sbt._
 
 class Project(info: ProjectInfo) extends AppengineProject(info) {
-  val uf_version = "0.2.2"
+  val uf_version = "0.2.3"
   
   val lift_json = "net.liftweb" %% "lift-json" % "2.2-M1" 
   
