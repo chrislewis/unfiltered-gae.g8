@@ -3,7 +3,7 @@ import sbt._
 class Project(info: ProjectInfo) extends AppengineProject(info) {
   val uf_version = "0.2.3"
   
-  val lift_json = "net.liftweb" %% "lift-json" % "2.2-M1" 
+  val lift_json = "net.liftweb" %% "lift-json" % "2.2-RC4" 
   
   // unfiltered
   lazy val uff = "net.databinder" %% "unfiltered-filter" % uf_version
@@ -12,5 +12,5 @@ class Project(info: ProjectInfo) extends AppengineProject(info) {
 
   // testing
   lazy val uf_spec = "net.databinder" %% "unfiltered-spec" % uf_version % "test"
-  lazy val specs = "org.scala-tools.testing" %% "specs" %"1.6.5" % "test"
+  lazy val specs = "org.scala-tools.testing" %% "specs" %"1.6.6" % "test"
 }
