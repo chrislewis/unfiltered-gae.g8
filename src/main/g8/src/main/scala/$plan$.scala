@@ -1,9 +1,9 @@
-package gae
+package $package$
 
 import unfiltered.request._
 import unfiltered.response._
   
 /** unfiltered plan */
-class Plan extends unfiltered.filter.Planify({
+class $plan$ extends unfiltered.filter.Planify({
   case _ => ResponseString("Hello GAE!")
 });
